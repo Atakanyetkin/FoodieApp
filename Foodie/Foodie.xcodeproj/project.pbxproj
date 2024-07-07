@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF51CDD02C3289A5002213B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CDCF2C3289A5002213B3 /* AppDelegate.swift */; };
+		AF51CDD22C3289A5002213B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CDD12C3289A5002213B3 /* SceneDelegate.swift */; };
+		AF51CDD72C3289A5002213B3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF51CDD62C3289A5002213B3 /* Base */; };
+		AF51CDD92C3289A7002213B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF51CDD82C3289A7002213B3 /* Assets.xcassets */; };
+		AF51CDDC2C3289A7002213B3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF51CDDB2C3289A7002213B3 /* Base */; };
+		AF51CDE82C32A896002213B3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CDE72C32A896002213B3 /* OnboardingViewController.swift */; };
+		AF51CDEB2C32AC57002213B3 /* UIview+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CDEA2C32AC57002213B3 /* UIview+Extensions.swift */; };
+		AF51CDED2C32ADA0002213B3 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CDEC2C32ADA0002213B3 /* OnboardingSlide.swift */; };
+		AF51CDF12C32CDCC002213B3 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CDF02C32CDCC002213B3 /* OnboardingCollectionViewCell.swift */; };
+		AF51CDF42C331A7F002213B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CDF32C331A7F002213B3 /* HomeViewController.swift */; };
+		AF51CDF92C34015C002213B3 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CDF72C34015C002213B3 /* CategoryCollectionViewCell.swift */; };
+		AF51CDFA2C34015C002213B3 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51CDF82C34015C002213B3 /* CategoryCollectionViewCell.xib */; };
+		AF51CDFC2C340310002213B3 /* DishCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CDFB2C340310002213B3 /* DishCategory.swift */; };
+		AF51CDFF2C34041E002213B3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AF51CDFE2C34041E002213B3 /* Kingfisher */; };
+		AF51CE012C34049B002213B3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE002C34049B002213B3 /* String+Extension.swift */; };
+		AF51CE042C3409FE002213B3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE032C3409FE002213B3 /* CardView.swift */; };
+		AF51CE0B2C3433DF002213B3 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE0A2C3433DF002213B3 /* Dish.swift */; };
+		AF51CE152C356628002213B3 /* DishLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE132C356628002213B3 /* DishLandscapeCollectionViewCell.swift */; };
+		AF51CE162C356628002213B3 /* DishLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51CE142C356628002213B3 /* DishLandscapeCollectionViewCell.xib */; };
+		AF51CE192C359EC3002213B3 /* DishPortraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE172C359EC3002213B3 /* DishPortraitCollectionViewCell.swift */; };
+		AF51CE1A2C359EC3002213B3 /* DishPortraitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51CE182C359EC3002213B3 /* DishPortraitCollectionViewCell.xib */; };
+		AF51CE1D2C36B863002213B3 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE1C2C36B863002213B3 /* DishDetailViewController.swift */; };
+		AF51CE1F2C36BBF3002213B3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE1E2C36BBF3002213B3 /* UIViewController+Extension.swift */; };
+		AF51CE242C36D620002213B3 /* DishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE222C36D620002213B3 /* DishListTableViewCell.swift */; };
+		AF51CE252C36D620002213B3 /* DishListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF51CE232C36D620002213B3 /* DishListTableViewCell.xib */; };
+		AF51CE282C36DC80002213B3 /* ListDishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE272C36DC80002213B3 /* ListDishesViewController.swift */; };
+		AF51CE2B2C36ED50002213B3 /* ListOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE2A2C36ED50002213B3 /* ListOrderViewController.swift */; };
+		AF51CE2D2C36EFB8002213B3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE2C2C36EFB8002213B3 /* Order.swift */; };
+		AF51CE302C36FA80002213B3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE2F2C36FA80002213B3 /* NetworkService.swift */; };
+		AF51CE322C36FB13002213B3 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE312C36FB13002213B3 /* Route.swift */; };
+		AF51CE342C36FB94002213B3 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE332C36FB94002213B3 /* Method.swift */; };
+		AF51CE362C380D96002213B3 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE352C380D96002213B3 /* AppError.swift */; };
+		AF51CE382C380F80002213B3 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE372C380F80002213B3 /* ApiResponse.swift */; };
+		AF51CE3A2C38110B002213B3 /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE392C38110B002213B3 /* AllDishes.swift */; };
+		AF51CE3C2C381215002213B3 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51CE3B2C381214002213B3 /* UserDefaults.swift */; };
+		AF51CE3F2C381383002213B3 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AF51CE3E2C381383002213B3 /* IQKeyboardManagerSwift */; };
+		AF51CE422C3815D2002213B3 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = AF51CE412C3815D2002213B3 /* ProgressHUD */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF51CDCC2C3289A5002213B3 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF51CDCF2C3289A5002213B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF51CDD12C3289A5002213B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF51CDD62C3289A5002213B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF51CDD82C3289A7002213B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF51CDDB2C3289A7002213B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF51CDDD2C3289A7002213B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF51CDE72C32A896002213B3 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		AF51CDEA2C32AC57002213B3 /* UIview+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIview+Extensions.swift"; sourceTree = "<group>"; };
+		AF51CDEC2C32ADA0002213B3 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		AF51CDF02C32CDCC002213B3 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF51CDF32C331A7F002213B3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF51CDF72C34015C002213B3 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF51CDF82C34015C002213B3 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		AF51CDFB2C340310002213B3 /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
+		AF51CE002C34049B002213B3 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		AF51CE032C3409FE002213B3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AF51CE0A2C3433DF002213B3 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		AF51CE132C356628002213B3 /* DishLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF51CE142C356628002213B3 /* DishLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
+		AF51CE172C359EC3002213B3 /* DishPortraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortraitCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF51CE182C359EC3002213B3 /* DishPortraitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPortraitCollectionViewCell.xib; sourceTree = "<group>"; };
+		AF51CE1C2C36B863002213B3 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
+		AF51CE1E2C36BBF3002213B3 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		AF51CE222C36D620002213B3 /* DishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListTableViewCell.swift; sourceTree = "<group>"; };
+		AF51CE232C36D620002213B3 /* DishListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishListTableViewCell.xib; sourceTree = "<group>"; };
+		AF51CE272C36DC80002213B3 /* ListDishesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDishesViewController.swift; sourceTree = "<group>"; };
+		AF51CE2A2C36ED50002213B3 /* ListOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrderViewController.swift; sourceTree = "<group>"; };
+		AF51CE2C2C36EFB8002213B3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		AF51CE2F2C36FA80002213B3 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		AF51CE312C36FB13002213B3 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		AF51CE332C36FB94002213B3 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		AF51CE352C380D96002213B3 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		AF51CE372C380F80002213B3 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		AF51CE392C38110B002213B3 /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
+		AF51CE3B2C381214002213B3 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF51CDC92C3289A5002213B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF51CE422C3815D2002213B3 /* ProgressHUD in Frameworks */,
+				AF51CDFF2C34041E002213B3 /* Kingfisher in Frameworks */,
+				AF51CE3F2C381383002213B3 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF51CDC32C3289A5002213B3 = {
+			isa = PBXGroup;
+			children = (
+				AF51CDCE2C3289A5002213B3 /* Foodie */,
+				AF51CDCD2C3289A5002213B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF51CDCD2C3289A5002213B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CDCC2C3289A5002213B3 /* Foodie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF51CDCE2C3289A5002213B3 /* Foodie */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE2E2C36FA62002213B3 /* Networking */,
+				AF51CDE92C32AC0B002213B3 /* Extensions */,
+				AF51CDE52C32A84B002213B3 /* CustomViews */,
+				AF51CDE42C32A83D002213B3 /* Views */,
+				AF51CDE32C32A823002213B3 /* Models */,
+				AF51CDCF2C3289A5002213B3 /* AppDelegate.swift */,
+				AF51CDD12C3289A5002213B3 /* SceneDelegate.swift */,
+				AF51CDD52C3289A5002213B3 /* Main.storyboard */,
+				AF51CDD82C3289A7002213B3 /* Assets.xcassets */,
+				AF51CDDA2C3289A7002213B3 /* LaunchScreen.storyboard */,
+				AF51CDDD2C3289A7002213B3 /* Info.plist */,
+			);
+			path = Foodie;
+			sourceTree = "<group>";
+		};
+		AF51CDE32C32A823002213B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CDEC2C32ADA0002213B3 /* OnboardingSlide.swift */,
+				AF51CDFB2C340310002213B3 /* DishCategory.swift */,
+				AF51CE0A2C3433DF002213B3 /* Dish.swift */,
+				AF51CE2C2C36EFB8002213B3 /* Order.swift */,
+				AF51CE392C38110B002213B3 /* AllDishes.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AF51CDE42C32A83D002213B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE292C36ED1C002213B3 /* ListOrders */,
+				AF51CE262C36DC55002213B3 /* ListDishes */,
+				AF51CE1B2C36B83B002213B3 /* DishDetail */,
+				AF51CDF22C331A54002213B3 /* Home */,
+				AF51CDE62C32A85B002213B3 /* Onboarding */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AF51CDE52C32A84B002213B3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE202C36D5DA002213B3 /* TableViewCells */,
+				AF51CE022C3409D1002213B3 /* CardView */,
+				AF51CDF52C3400C1002213B3 /* CollectionViewCells */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		AF51CDE62C32A85B002213B3 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CDE72C32A896002213B3 /* OnboardingViewController.swift */,
+				AF51CDF02C32CDCC002213B3 /* OnboardingCollectionViewCell.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		AF51CDE92C32AC0B002213B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CDEA2C32AC57002213B3 /* UIview+Extensions.swift */,
+				AF51CE002C34049B002213B3 /* String+Extension.swift */,
+				AF51CE1E2C36BBF3002213B3 /* UIViewController+Extension.swift */,
+				AF51CE3B2C381214002213B3 /* UserDefaults.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		AF51CDF22C331A54002213B3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CDF32C331A7F002213B3 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		AF51CDF52C3400C1002213B3 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE0E2C346815002213B3 /* DishLandscapeCollectionViewCell */,
+				AF51CE052C343127002213B3 /* DishPortraitCollectionViewCell */,
+				AF51CDF62C3400ED002213B3 /* CategoryCollectionViewCell */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		AF51CDF62C3400ED002213B3 /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CDF72C34015C002213B3 /* CategoryCollectionViewCell.swift */,
+				AF51CDF82C34015C002213B3 /* CategoryCollectionViewCell.xib */,
+			);
+			name = CategoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		AF51CE022C3409D1002213B3 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE032C3409FE002213B3 /* CardView.swift */,
+			);
+			name = CardView;
+			sourceTree = "<group>";
+		};
+		AF51CE052C343127002213B3 /* DishPortraitCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE172C359EC3002213B3 /* DishPortraitCollectionViewCell.swift */,
+				AF51CE182C359EC3002213B3 /* DishPortraitCollectionViewCell.xib */,
+			);
+			name = DishPortraitCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		AF51CE0E2C346815002213B3 /* DishLandscapeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE132C356628002213B3 /* DishLandscapeCollectionViewCell.swift */,
+				AF51CE142C356628002213B3 /* DishLandscapeCollectionViewCell.xib */,
+			);
+			name = DishLandscapeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		AF51CE1B2C36B83B002213B3 /* DishDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE1C2C36B863002213B3 /* DishDetailViewController.swift */,
+			);
+			name = DishDetail;
+			sourceTree = "<group>";
+		};
+		AF51CE202C36D5DA002213B3 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE212C36D5F2002213B3 /* DishListTableViewCell */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		AF51CE212C36D5F2002213B3 /* DishListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE232C36D620002213B3 /* DishListTableViewCell.xib */,
+				AF51CE222C36D620002213B3 /* DishListTableViewCell.swift */,
+			);
+			name = DishListTableViewCell;
+			sourceTree = "<group>";
+		};
+		AF51CE262C36DC55002213B3 /* ListDishes */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE272C36DC80002213B3 /* ListDishesViewController.swift */,
+			);
+			name = ListDishes;
+			sourceTree = "<group>";
+		};
+		AF51CE292C36ED1C002213B3 /* ListOrders */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE2A2C36ED50002213B3 /* ListOrderViewController.swift */,
+			);
+			name = ListOrders;
+			sourceTree = "<group>";
+		};
+		AF51CE2E2C36FA62002213B3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AF51CE2F2C36FA80002213B3 /* NetworkService.swift */,
+				AF51CE312C36FB13002213B3 /* Route.swift */,
+				AF51CE332C36FB94002213B3 /* Method.swift */,
+				AF51CE352C380D96002213B3 /* AppError.swift */,
+				AF51CE372C380F80002213B3 /* ApiResponse.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF51CDCB2C3289A5002213B3 /* Foodie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF51CDE02C3289A7002213B3 /* Build configuration list for PBXNativeTarget "Foodie" */;
+			buildPhases = (
+				AF51CDC82C3289A5002213B3 /* Sources */,
+				AF51CDC92C3289A5002213B3 /* Frameworks */,
+				AF51CDCA2C3289A5002213B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foodie;
+			packageProductDependencies = (
+				AF51CDFE2C34041E002213B3 /* Kingfisher */,
+				AF51CE3E2C381383002213B3 /* IQKeyboardManagerSwift */,
+				AF51CE412C3815D2002213B3 /* ProgressHUD */,
+			);
+			productName = Foodie;
+			productReference = AF51CDCC2C3289A5002213B3 /* Foodie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF51CDC42C3289A5002213B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AF51CDCB2C3289A5002213B3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = AF51CDC72C3289A5002213B3 /* Build configuration list for PBXProject "Foodie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF51CDC32C3289A5002213B3;
+			packageReferences = (
+				AF51CDFD2C34041E002213B3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				AF51CE3D2C381383002213B3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				AF51CE402C3815D2002213B3 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+			);
+			productRefGroup = AF51CDCD2C3289A5002213B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF51CDCB2C3289A5002213B3 /* Foodie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF51CDCA2C3289A5002213B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF51CDFA2C34015C002213B3 /* CategoryCollectionViewCell.xib in Resources */,
+				AF51CE252C36D620002213B3 /* DishListTableViewCell.xib in Resources */,
+				AF51CE1A2C359EC3002213B3 /* DishPortraitCollectionViewCell.xib in Resources */,
+				AF51CDD92C3289A7002213B3 /* Assets.xcassets in Resources */,
+				AF51CDDC2C3289A7002213B3 /* Base in Resources */,
+				AF51CE162C356628002213B3 /* DishLandscapeCollectionViewCell.xib in Resources */,
+				AF51CDD72C3289A5002213B3 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF51CDC82C3289A5002213B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF51CE242C36D620002213B3 /* DishListTableViewCell.swift in Sources */,
+				AF51CE1F2C36BBF3002213B3 /* UIViewController+Extension.swift in Sources */,
+				AF51CE2D2C36EFB8002213B3 /* Order.swift in Sources */,
+				AF51CDF92C34015C002213B3 /* CategoryCollectionViewCell.swift in Sources */,
+				AF51CDED2C32ADA0002213B3 /* OnboardingSlide.swift in Sources */,
+				AF51CDD02C3289A5002213B3 /* AppDelegate.swift in Sources */,
+				AF51CDD22C3289A5002213B3 /* SceneDelegate.swift in Sources */,
+				AF51CE3A2C38110B002213B3 /* AllDishes.swift in Sources */,
+				AF51CDEB2C32AC57002213B3 /* UIview+Extensions.swift in Sources */,
+				AF51CE342C36FB94002213B3 /* Method.swift in Sources */,
+				AF51CDE82C32A896002213B3 /* OnboardingViewController.swift in Sources */,
+				AF51CE1D2C36B863002213B3 /* DishDetailViewController.swift in Sources */,
+				AF51CDF42C331A7F002213B3 /* HomeViewController.swift in Sources */,
+				AF51CE192C359EC3002213B3 /* DishPortraitCollectionViewCell.swift in Sources */,
+				AF51CE382C380F80002213B3 /* ApiResponse.swift in Sources */,
+				AF51CDFC2C340310002213B3 /* DishCategory.swift in Sources */,
+				AF51CE322C36FB13002213B3 /* Route.swift in Sources */,
+				AF51CE302C36FA80002213B3 /* NetworkService.swift in Sources */,
+				AF51CE152C356628002213B3 /* DishLandscapeCollectionViewCell.swift in Sources */,
+				AF51CE012C34049B002213B3 /* String+Extension.swift in Sources */,
+				AF51CE2B2C36ED50002213B3 /* ListOrderViewController.swift in Sources */,
+				AF51CE282C36DC80002213B3 /* ListDishesViewController.swift in Sources */,
+				AF51CE362C380D96002213B3 /* AppError.swift in Sources */,
+				AF51CE3C2C381215002213B3 /* UserDefaults.swift in Sources */,
+				AF51CE042C3409FE002213B3 /* CardView.swift in Sources */,
+				AF51CDF12C32CDCC002213B3 /* OnboardingCollectionViewCell.swift in Sources */,
+				AF51CE0B2C3433DF002213B3 /* Dish.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF51CDD52C3289A5002213B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF51CDD62C3289A5002213B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF51CDDA2C3289A7002213B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF51CDDB2C3289A7002213B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF51CDDE2C3289A7002213B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF51CDDF2C3289A7002213B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF51CDE12C3289A7002213B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AJ99TFKHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakanyetkin.Foodie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF51CDE22C3289A7002213B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AJ99TFKHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atakanyetkin.Foodie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF51CDC72C3289A5002213B3 /* Build configuration list for PBXProject "Foodie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF51CDDE2C3289A7002213B3 /* Debug */,
+				AF51CDDF2C3289A7002213B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF51CDE02C3289A7002213B3 /* Build configuration list for PBXNativeTarget "Foodie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF51CDE12C3289A7002213B3 /* Debug */,
+				AF51CDE22C3289A7002213B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF51CDFD2C34041E002213B3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+		AF51CE3D2C381383002213B3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.3;
+			};
+		};
+		AF51CE402C3815D2002213B3 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF51CDFE2C34041E002213B3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF51CDFD2C34041E002213B3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		AF51CE3E2C381383002213B3 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF51CE3D2C381383002213B3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		AF51CE412C3815D2002213B3 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF51CE402C3815D2002213B3 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF51CDC42C3289A5002213B3 /* Project object */;
+}
